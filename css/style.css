@@ -1,0 +1,40 @@
+.background {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  background-color: palevioletred;
+  width:100%;
+}
+
+.tomImg, .name {
+  width:auto;
+  text-align:center;
+  padding:20px;
+}
+
+#tom, #name1 {
+  max-width: 100%;
+  height:auto;
+}
+
+#bio {
+  text-align: center;
+  margin: 100px;
+  font-size: 24px;
+  margin-bottom: 100px;
+}
+
+.card {
+  display: inline-block;
+  margin-inline-end:auto;
+  margin-inline-start: auto;
+  margin-bottom: 100px;
+}
+
+.container {
+  width:100%;
+  height: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
